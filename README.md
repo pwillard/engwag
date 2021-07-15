@@ -1,6 +1,6 @@
 # engwag README
 
-This is a "work-in-=progress" version of a simple ENG-WAG file context highloighter
+This is a "work-in-progress" version of a simple ENG-WAG file context highlighter
 
 ## Features
 
