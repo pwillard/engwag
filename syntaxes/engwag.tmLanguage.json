@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "EngWag",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#orts"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.engwag",
+				"match": "\\b(?i)(WAGON|TYPE|WAGONSHAPE|SIZE|CENTREOFGRAVITY|MASS|INERTIATENSOR|WHEELRADIUS|NUMWHEELS|COUPLING|SPRING|SOUND|NAME|BRAKEEQUIPMENTTYPE|BRAKESYSTEMTYPE|MAXBRAKEFORCE|MAXHANDBRAKEFORCE|NUMBEROFHANDBRAKELEVERSTEPS|TRIPLEVALVERATIO|MAXRELEASERATE|MAXAPPLICATIONRATE|MAXAUXILARYCHARGINGRATE|EMERGENCYRESCAPACITY|EMERGENCYRESCHARGINGRATE|BRAKECYLINDERPRESSUREFORMAXBRAKEBRAKEFORCE|EMERGENCYBRAKERESMAXPRESSURE)\\b"
+			}]
+		},
+		"orts": {
+			"patterns": [{
+				"name":"keyword.other.engwag",
+				"match": "\\b(?i)(ORTSBEARINGTYPE|ORTSDavis_A|ORTSDavis_B|ORTSDavis_C|CENTREOFGRAVITY_Y\\b)"
+			}]
+		
+		},
+		"strings": {
+			"name": "string.quoted.double.engwag",
+			"begin": "\"",
+			"end": "\""
+		},
+		"comments": {
+			"name":"comment",
+			"begin": "(?i)comment",
+			"end": "\\)"
+		}
+		},
+	"scopeName": "source.engwag"
+}
