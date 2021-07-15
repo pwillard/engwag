@@ -6,7 +6,7 @@ This is a "work-in-progress" version of a simple ENG-WAG file context highlighte
 
 It performes nothing special other than to provide some simple highlighting (colorization) of keywords with a goal of differentiating COMMENTS, MSTS and ORTS specific leywords. 
 
-\!\[sample\]\(images/sample.png\)
+\!\[sample\]\(https://github.com/pwillard/engwag/images/sample.png\)
 
 
 ## Requirements
